@@ -3,7 +3,7 @@
 int main(){
 
     int num;
-    printf("enter a number");
+    printf("enter a number : ");
     scanf("%d",&num);
     printf("square number for %d is %d",num,(num*num));
 
