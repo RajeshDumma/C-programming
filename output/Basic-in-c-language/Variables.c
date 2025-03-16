@@ -13,8 +13,8 @@ int a = 10; ==> Variable Declaration and initialization
 int main(){
 
     int a = 10 ; // here  Variable Declaration and initialization
-    float x = 4.678;
-    double y = 54.878676532;
+    float x = 4.678; // float will take upto 6 digits
+    double y = 54.878676532; // double will take upto 15 digits
     char ch = 'd';
 
     printf("%d",a);
