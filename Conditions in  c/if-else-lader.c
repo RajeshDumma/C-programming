@@ -43,5 +43,27 @@ printf("condition false");
 
     return 0;
 }
-
+=========================================================================================================
 // calculate moduler
+#include <stdio.h>
+
+int main() {
+    int a, b, result;
+    
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    if (b == 0) {
+        printf("Error: Division by zero is not allowed.\n");
+    } else if (a > b) {
+        result = a % b;
+        printf("Result is: %d\n", result);
+    } else {
+        printf("Condition failed\n");
+    }
+
+    return 0;
+}
