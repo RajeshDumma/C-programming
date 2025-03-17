@@ -1,9 +1,7 @@
 
 // if else lader in c language
 
-/* #include <stdio.h>
-
-
+ #include <stdio.h>
 int main(){
    
     int ratting;
@@ -24,7 +22,7 @@ int main(){
 
     return 0;
 }
- */
+ ======================================================================================================
 
 // conditions in if 
 
@@ -44,12 +42,20 @@ else
 printf("condition false");
 
     return 0;
+<<<<<<< HEAD
 } */
 
 // calculate Modular Division 
 
 #include <stdio.h>
 
+=======
+}
+=========================================================================================================
+// calculate moduler
+#include <stdio.h>
+
+>>>>>>> 50b5c8a32070b2bcfcd3391ac1a3a24279e6e360
 int main() {
     int a, b, result;
     
