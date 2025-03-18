@@ -31,3 +31,18 @@
 
     return 0;
  }
+
+ // pattern 1 
+/*
+  1 2 3 4 5  
+1 * * * * *
+2 * * * * *
+3 * * * * *
+4 * * * * *
+5 * * * * *
+
+// here 5 rows and 5 column
+ */
+ // fist check number of rows and cols
+
+ 
