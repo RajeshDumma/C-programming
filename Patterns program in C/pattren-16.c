@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+ #include <stdio.h>
 
 int main() {
     int n, rows, cols, space;
@@ -18,7 +18,7 @@ int main() {
     }
 
     return 0;
-} */
+} 
  
 // same as reverse pattren 
 
