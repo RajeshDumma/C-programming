@@ -22,7 +22,7 @@
     return 0;
 <<<<<<< HEAD
  } */
-
+----------------------------------------------------------------------------------------------------------
  // another method  only one for Loop
  #include <stdio.h>
 
@@ -35,7 +35,12 @@
     for(rows = 1 ;rows <= n *2 -1 ;rows++){
         colslimit = (rows <= n) ? rows : n * 2 -rows;
         for(cols = 1 ;cols <= colslimit ;cols++){
-=======
+             printf("* ");
+        }
+        printf("\n");
+    }
+
+    return 0;
  }
   ---------------------------------------------------------------------------------------------
 // another logic 
@@ -56,21 +61,15 @@
     }
     for(rows = 1 ; rows < n;rows++){
         for(cols = 1; cols <= n - rows; cols++){
->>>>>>> aba097810665e5e4d7bd8d8c6934aa6e907863ba
             printf("* ");
         }
         printf("\n");
     }
-<<<<<<< HEAD
-   
-    
 
     return 0;
  }
-=======
 
-    return 0;
- }
+
 // output 
 
 * 
