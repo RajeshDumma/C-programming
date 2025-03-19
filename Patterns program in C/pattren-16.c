@@ -22,15 +22,6 @@ int main() {
  
 // same as reverse pattren 
 
-#include <stdio.h>
-
-int main() {
-    int n, rows, cols, space;
-
-    printf("Enter n value: ");
-    scanf("%d", &n);
-
-
 
 
 
