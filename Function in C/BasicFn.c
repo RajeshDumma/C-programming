@@ -35,4 +35,33 @@ void welcome(){ // function defination
 
 // add and sub of two numbers using function 
 
+#include <stdio.h>
+int add (int , int) ; // function declaration
+int sub (int , int) ;
+
+int main(){
+   // take two input from user
+   int a , b , z;
+   printf("Enter two numbers : ");
+   scanf("%d %d", &a ,&b);
+   
+   z = add(a , b);
+   printf("z = %d \n",z);
+   
+    z = sub(a , b);
+   printf("z = %d ",z);
+   
+   return 0;
+}
+
+int add(int a , int b){
+    int c ;
+    c = a + b;
+    return c;
+}
+int sub(int a , int b){
+    int c ;
+    c = a - b;
+    return c;
+}
 
