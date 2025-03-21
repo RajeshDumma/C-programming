@@ -1,4 +1,4 @@
- 
+ /*
  4 types of catecories in c
 
  1. without Argument
