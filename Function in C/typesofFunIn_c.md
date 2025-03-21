@@ -9,4 +9,4 @@ in function first three stages
 1. Library function 
   In library function already a function is declared and  definied just we call the function call .
    
-   
+   2. user defined function
