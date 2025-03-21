@@ -15,7 +15,7 @@
 */
 
 // 1st one 
-/* 
+
 #include <stdio.h>
 void greet();
 
