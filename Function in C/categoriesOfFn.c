@@ -1,4 +1,4 @@
-/* 
+ 
  4 types of catecories in c
 
  1. without Argument
@@ -27,6 +27,6 @@ int main(){
  
 void greet(){
     printf("welcome to my World!");
-} */
+}
 
 
