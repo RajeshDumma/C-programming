@@ -24,4 +24,20 @@ int main(){
 // isdigit ==> it will check 48 to 57 in between this number
 // it's return 1 or 2 , if not it's return 0
 
-f
+#include<stdio.h>
+#include<ctype.h>
+
+int main(){
+
+    char ch; // here check ch between 48 to 57
+    int isDigit;
+
+    printf("Enter a Digit : ");
+    scanf("%c",&ch);
+
+    isDigit = isdigit(ch);
+
+    printf("%d",isDigit);
+
+    return 0;
+}
