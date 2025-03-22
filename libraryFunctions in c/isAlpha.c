@@ -24,3 +24,4 @@ int main(){
 // isdigit ==> it will check 48 to 57 in between this number
 // it's return 1 or 2 , if not it's return 0
 
+f
