@@ -66,3 +66,6 @@ int checkPrime(int a) {
     return 1;  // Prime number
 }
 
+
+// n prime numbers 
+// ex:-  5 , ==>  2 , 3 , 5 , 7 ,11
