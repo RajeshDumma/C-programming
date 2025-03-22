@@ -36,3 +36,19 @@ int main(){
  
   // isupper or not , if not it will return 0 , if yes return 1 or 2 something values
  
+#include <stdio.h>
+#include <ctype.h>
+
+int main(){
+
+    char ch ;
+  int check ;
+    printf("Enter a Alphabet : ");
+    scanf("%c",&ch);
+
+   check = isupper(ch);
+
+    printf("check = %d" , check);
+
+    return 0;
+}
