@@ -35,4 +35,31 @@ void add(){
 } */
 
 
+// with return value  
+// sum of N natural numbers using recursion function
+
+#include <stdio.h>
+int sum(int); // function declaration
+
+int main(){
+  
+    int num , result;
+    printf("Enter the number : ");
+    scanf("%d",&num);
+
+      result = sum(num);
+      printf(" result = %d",result);
+
+    return 0;
+}
+
+int sum(int n){
+
+    if(n != 1)
+    return n + sum(n -1);   
+else
+return n;
+
+}
+
 
