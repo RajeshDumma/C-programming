@@ -13,7 +13,8 @@ int main() {
     float z = (float)x / y;  // Explicit type casting ensures floating-point division (10.0/3) = 3.333
     printf("%.2f \n", z);  // Output: 3.33(Correct result)
   
-    float z = x / (float) y ;
+    z = x / (float) y ;
+    printf("%.2f \n", z); 
     
     return 0;
 }
