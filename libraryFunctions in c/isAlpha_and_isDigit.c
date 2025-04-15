@@ -41,3 +41,27 @@ int main(){
 
     return 0;
 }
+
+
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    
+    printf("Enter the charecter : ");
+    char ch;
+    scanf("%c",&ch);
+    
+   if(isalpha(ch)){
+       if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+           printf("%c is a vowel", ch );
+       } 
+       else{
+            printf("%c is a Consonent", ch );
+       }
+   } 
+   else{
+       printf("not a Alphabet");
+   }
+    return 0;
+}
