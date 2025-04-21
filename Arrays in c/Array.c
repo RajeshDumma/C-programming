@@ -1,4 +1,4 @@
-#include<stdio.h>
+/* #include<stdio.h>
 
 
 int main(){
@@ -15,6 +15,28 @@ int main(){
         total += a[i];
     }
     printf("\n total is : %d" , total);
+
+    return 0;
+} */
+
+ // array using scanf function
+#include <stdio.h>
+
+#define SIZE 8 
+
+
+int main(){
+
+    int n[SIZE];
+    printf("Enter %d elements : ",SIZE);
+    for(int i = 0 ; i < SIZE ; i++){
+        scanf("%d",&n[i]);
+    }
+    int total = 0;
+    for(int i = 0 ; i < SIZE ; i++){
+        total += n[i];
+    }
+    printf("\n total of array elements is : %d",total);
 
     return 0;
 }
