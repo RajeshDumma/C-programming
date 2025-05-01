@@ -9,8 +9,6 @@ int main(){
 
     int arrA[rows][cols] , arrB[rows][cols] , result[rows][cols] ;
 
-
-    if()
     printf("Enter first matrix values : ");
 
     for(int i = 0; i < rows ; i++){
